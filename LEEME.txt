@@ -1,0 +1,25 @@
+MODO JUEGO - STEAM + DISCORD
+
+Abre el acceso directo Modo juego - Steam y Discord del escritorio.
+Selecciona aplicaciones y pulsa Cerrar seleccionadas.
+Steam, Discord, juegos, antivirus, controladores, VPN y servicios quedan fuera.
+Chrome, Codex, Adobe y las herramientas de grabacion vienen desmarcados.
+Guarda tu trabajo antes de seleccionar Chrome o Codex.
+
+La casilla Forzar cierre de apps opcionales viene desactivada.
+Al activarla, permite finalizar exclusivamente WhatsApp, Enlace Movil,
+NVIDIA Overlay, Game Bar, sus widgets, Widgets de Windows,
+notificaciones Wondershare y AdobeCollabSync si los seleccionas.
+Puede interrumpir llamadas, grabaciones o sincronizacion; no selecciones
+esas aplicaciones si las estas utilizando. No se recuperan tareas pendientes.
+Chrome, Codex y lanzadores externos solo reciben solicitudes de cierre normal.
+No se deshabilitan servicios ni se cambia el inicio de Windows.
+La lista valida nombre, ruta y momento de inicio del proceso.
+Los procesos desconocidos de la revision no se incluyen.
+
+Sin cierre forzado, aplicaciones sin ventana deben cerrarse desde la bandeja.
+Los registros distinguen cierre solicitado de proceso finalizado.
+Una app puede volver a abrirse por sus propias tareas o servicios.
+Vuelve a abrir manualmente las aplicaciones que necesites despues de jugar.
+La memoria mostrada es aproximada y no garantiza una mejora en FPS.
+Mantén juntos ModoJuego.ps1 y Seguridad.ps1.
