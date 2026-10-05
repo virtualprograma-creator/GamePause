@@ -1,25 +1,40 @@
-MODO JUEGO - STEAM + DISCORD
+GAMEPAUSE - STEAM Y DISCORD
 
-Abre el acceso directo Modo juego - Steam y Discord del escritorio.
-Selecciona aplicaciones y pulsa Cerrar seleccionadas.
-Steam, Discord, juegos, antivirus, controladores, VPN y servicios quedan fuera.
-Chrome, Codex, Adobe y las herramientas de grabacion vienen desmarcados.
-Guarda tu trabajo antes de seleccionar Chrome o Codex.
+Abre Modo juego.cmd o el acceso directo del escritorio.
+Selecciona las aplicaciones y pulsa Cerrar seleccionadas.
+Steam, Discord, juegos, antivirus, VPN, controladores y servicios se conservan.
+Guarda tu trabajo antes de cerrar aplicaciones.
 
-La casilla Forzar cierre de apps opcionales viene desactivada.
-Al activarla, permite finalizar exclusivamente WhatsApp, Enlace Movil,
-NVIDIA Overlay, Game Bar, sus widgets, Widgets de Windows,
-notificaciones Wondershare y AdobeCollabSync si los seleccionas.
-Puede interrumpir llamadas, grabaciones o sincronizacion; no selecciones
-esas aplicaciones si las estas utilizando. No se recuperan tareas pendientes.
-Chrome, Codex y lanzadores externos solo reciben solicitudes de cierre normal.
-No se deshabilitan servicios ni se cambia el inicio de Windows.
-La lista valida nombre, ruta y momento de inicio del proceso.
-Los procesos desconocidos de la revision no se incluyen.
+PERFILES
+Escribe el nombre del juego y pulsa Guardar perfil para guardar las casillas.
+Selecciona un perfil existente y pulsa Cargar perfil para recuperar la seleccion.
+Tambien puedes configurar aplicaciones que no esten abiertas en ese momento.
+Los perfiles se guardan localmente en Datos/Perfiles.json; no se publican en Git.
+Cargar un perfil siempre deja desactivado el cierre forzado.
 
-Sin cierre forzado, aplicaciones sin ventana deben cerrarse desde la bandeja.
-Los registros distinguen cierre solicitado de proceso finalizado.
-Una app puede volver a abrirse por sus propias tareas o servicios.
-Vuelve a abrir manualmente las aplicaciones que necesites despues de jugar.
-La memoria mostrada es aproximada y no garantiza una mejora en FPS.
-Mantén juntos ModoJuego.ps1 y Seguridad.ps1.
+RESULTADOS
+La lista muestra RAM aproximada y numero de procesos opcionales.
+Actualizar / confirmar renueva la lista y comprueba solicitudes pendientes.
+Solo un proceso cuya salida fue observada se registra como cerrado.
+Si pide guardar o sigue abierto, atiende su ventana; por defecto no se fuerza.
+Sin ventana, sal desde la bandeja o usa cierre forzado solo si corresponde.
+
+CIERRE FORZADO
+La casilla viene desactivada. Solo aplica a WhatsApp, Enlace Movil,
+NVIDIA Overlay, Game Bar y widgets, Widgets de Windows,
+notificaciones Wondershare y sincronizador Adobe Acrobat seleccionados.
+Chrome, Codex y lanzadores externos siempre usan cierre normal.
+No selecciones apps con llamadas, grabaciones o sincronizaciones en curso.
+
+RESTAURAR
+Al terminar de jugar pulsa Restaurar cerradas.
+Se vuelven a abrir aplicaciones cuyo cierre solicito y confirmo esta sesion.
+La cola vive en memoria: manten esta ventana abierta mientras juegas.
+No se duplican aplicaciones ya abiertas en tu sesion.
+No se recupera trabajo anterior ni argumentos de lanzamiento.
+Algunos componentes auxiliares requieren abrir su aplicacion manualmente.
+Los errores de inicio se muestran y pueden reintentarse con el mismo boton.
+
+Registros/ guarda resultados locales; no se publica en Git.
+No se cambia el inicio de Windows, no se detienen servicios y no se promete mas FPS.
+Mantén juntos ModoJuego.ps1, Core.ps1 y Seguridad.ps1.
