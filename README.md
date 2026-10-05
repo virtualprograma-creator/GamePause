@@ -1,4 +1,4 @@
-# SteamDiscord GameMode
+# GamePause
 
 Modo juego para Windows con interfaz sencilla en PowerShell. Permite cerrar aplicaciones opcionales antes de jugar, manteniendo Steam y Discord fuera de la lista de cierre.
 
@@ -53,3 +53,4 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\tests\Protecciones.ps1
 ## Desarrollo
 
 La interfaz y las opciones están en `ModoJuego.ps1`; las listas permitidas están en `Seguridad.ps1`. Para ampliar la lista, identifica primero el ejecutable y su ruta, evita agregar servicios y añade pruebas de protección.
+
