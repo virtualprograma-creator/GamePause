@@ -1,4 +1,4 @@
-param([switch]$PreviewOnly,[switch]$SmokeTest,[string]$ScreenshotPath)
+﻿param([switch]$PreviewOnly,[switch]$SmokeTest,[string]$ScreenshotPath)
 $ErrorActionPreference='Stop'
 . "$PSScriptRoot\Core.ps1"
 Add-Type -AssemblyName System.Windows.Forms
@@ -12,7 +12,7 @@ $script:pending=New-Object 'System.Collections.Generic.List[object]'
 $script:sessionId=[System.Diagnostics.Process]::GetCurrentProcess().SessionId
 $script:profileFile=Join-Path $PSScriptRoot 'Datos\Perfiles.json'
 $form=New-Object Windows.Forms.Form
-$form.Text='GamePause - Steam y Discord'
+$form.Text='GamePause v1.1.0'
 $form.ClientSize=New-Object Drawing.Size(800,700)
 $form.StartPosition='CenterScreen'
 $form.FormBorderStyle='FixedDialog'
